@@ -1,0 +1,63 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-form {
+  margin: 20px 0;
+}
+
+.product-form input {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-form button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-item.low-stock {
+  background-color: #ffefef;
+  border-color: #ff4d4d;
+}
+
+.product-item button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-item button:nth-child(1) {
+  background-color: #007bff;
+  color: white;
+}
+
+.product-item button:nth-child(2) {
+  background-color: #ff4d4d;
+  color: white;
+}
